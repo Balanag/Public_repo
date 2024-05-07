@@ -68,7 +68,10 @@ ingress:
     nginx.ingress.kubernetes.io/proxy-http-version: "1.1",
     nginx.ingress.kubernetes.io/enable-cors: "true",
     nginx.ingress.kubernetes.io/connection-proxy-header: "upgrade",
-    nginx.ingress.kubernetes.io/ssl-dh-param: "lb-dhparam"
+    nginx.ingress.kubernetes.io/ssl-dh-param: "lb-dhparam",
+    #app.kubernetes.io/managed-by: Helm,
+    #meta.helm.sh/release-name: chat-server,
+    #meta.helm.sh/release-namespace: chatserver
   }
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
