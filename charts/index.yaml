@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  chat-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-07T17:30:06.649862+02:00"
+    description: A Helm chart for chat server deployment in Kubernetes
+    digest: 5de847c4162ab5458433e5da6670bd6ccaaf25d692d3b66120327b8302990c08
+    name: chat-server
+    type: application
+    urls:
+    - https://github.com/bytro/chat-server/charts/chat-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-07T17:30:06.649351+02:00"
